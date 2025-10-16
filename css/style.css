@@ -10,6 +10,9 @@ body {
 /* Set the headings */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Sigmar", sans-serif;
+    text-align:center;
+}
+h1 {
     font-size:40pt;
 }
 
@@ -34,4 +37,9 @@ header {
 /* Biographical Info */
 #bio {
     text-align:center;
+}
+
+/* Hobbies */
+#hobbies ul li:nth-child(even) {
+    color:#55514c;
 }

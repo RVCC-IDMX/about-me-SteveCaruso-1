@@ -43,3 +43,19 @@ header {
 #hobbies ul li:nth-child(even) {
     color:#55514c;
 }
+
+/* Image Gallery */
+#gallery {
+    border: 10px solid #5d7480;
+    border-radius:40px;
+}
+#gallery img {
+    max-width:100%; 
+}
+#gallery hr {
+    border: none;
+    border-top: 10px solid #5d7480;
+}
+#gallery figure {
+    text-align:center;
+}

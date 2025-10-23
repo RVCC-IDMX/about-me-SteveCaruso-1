@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Example</title>
+</head>
+<body>
+
+<div id="parent">
+    <div>Child 1</div>
+    <div>Child 2</div>
+    <div>Child<br>Child 3</div>
+    <!--<div>Child 4</div>
+    <div>Child 5</div>
+    <div>ChildThing 6</div>
+    <div>Child 7</div>
+    <div>Child 8</div>
+    <div>Child 9</div>-->
+</div>
+
+<style>
+
+#parent {
+    border:1px solid red;
+    display:flex;
+    flex-direction:row;
+    /*overflow:scroll;*/
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    height:150px;
+    align-content:stretch;
+    gap:10px;
+}
+
+#parent > div {
+    border:1px solid blue;
+}
+
+#parent div:nth-child(1) {
+    font-size:200%;
+    order:0;
+}
+#parent div:nth-child(2) {
+    flex-grow:2;
+    align-self:flex-end;
+}
+/*
+#parent div:nth-child(2) {
+    order:1;
+}
+#parent div:nth-child(3) {
+    order:-1;
+}*/
+
+</style>
+
+</body>
+</html>

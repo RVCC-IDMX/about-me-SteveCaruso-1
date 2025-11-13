@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+<h1>Forms!</h1>
+
+<!--
+https://www.google.com/search?q=puppies
+-->
+
+<form method="get" action="">
+    <!-- Text -->
+    <input id="q" name="q" type="text" placeholder="Query here" size="5" minlength="3"> 
+    <!-- Submit -->
+    <input name="submit" type="submit" value="SUBMIT">
+    <!-- Button -->
+     <input id="button" type="button" value="Label">
+    <!-- Checkbox -->
+     <input name="check" type="checkbox" value="stuff">
+
+     <!-- RADIO -->
+    <fieldset>
+      <legend>Radio Buttons</legend>
+      <input id="radio1" name="group" type="radio" value="v1"> 
+        <label for="q">Option 1</label><br>
+      <input name="group" type="radio" value="v2"> 
+        Option 2 <br>
+      <input name="group" type="radio" value="v3"> 
+        Option 3
+    </fieldset>
+</form>
+    
+</body>
+</html>

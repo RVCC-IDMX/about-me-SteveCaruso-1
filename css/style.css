@@ -87,3 +87,34 @@ header {
         -2px -2px 0px black,
         3px 3px 5px black;
 }
+
+
+/* Form */
+fieldset, legend {
+    border: 10px solid #5d7480;
+    border-radius:40px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+fieldset {
+    padding:1em;
+    padding-top:0;
+    display:grid;
+}
+legend {
+    border-radius:10px;
+    font-weight:bold;
+}
+#submit {
+    width:50%;
+    justify-self:center;
+    margin-top:1ex;
+}
+fieldset ul {
+    padding:0;
+}
+fieldset li {
+    list-style-type: none;
+    margin-left:none;
+}
+

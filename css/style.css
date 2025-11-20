@@ -16,10 +16,10 @@ h1 {
     font-size:40pt;
 }
 
-/* The Header */
+/* The Header 
 header {
     text-align:center;
-}
+}*/
 
 /* The Hero */
 #hero, footer {
@@ -117,4 +117,3 @@ fieldset li {
     list-style-type: none;
     margin-left:none;
 }
-

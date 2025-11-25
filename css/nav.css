@@ -33,16 +33,22 @@ main {
 /* logo */
 
 .logo {
+    /*
     display:flex;
-    align-items:center;
+    justify-content:center;*/
+    display:grid;
+    grid-template-rows: 100px;
+    grid-template-areas: "top";
 }
 
 .logo img {
+    grid-area: top;
     width:80px;
     margin:10px;
 }
 
 .logo h1 {
+    grid-area:top;
     font-size:2em;
 }
 
@@ -87,6 +93,10 @@ such that no text wraps
 */
 
 @media (min-width: 800px) {
+
+    .logo {
+        display:flex;
+    }
 
     .navbar {
         flex-direction:row;
